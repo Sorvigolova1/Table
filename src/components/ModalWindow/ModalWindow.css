@@ -1,0 +1,26 @@
+﻿.window {
+    position: fixed;
+    width: 70vw;
+    height: 50vh;
+    display: flex;
+    left: 50%;
+    top: 50%;
+    background: white;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    transform: translate(-50%,-50%);
+    border: 10px solid cyan;
+    z-index: 10000;
+}
+.modalOverlay{
+    z-index:1000;
+    position:fixed;
+    top:0px;
+    left:0px;
+    width:100%;
+    height:100%;
+    background-color:rgba(0,0,0,0.7);
+}
+// ФИО, возраст, поля адреса, рост, вес, номер телефона,
+email и аватар
